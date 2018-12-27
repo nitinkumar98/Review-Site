@@ -1,0 +1,202 @@
+body
+{
+    font-family: 'Kalam', cursive;
+
+}
+.border
+{
+    margin-top: 200px;
+}
+
+.border
+{
+    background-color: #16ecffab;
+    width:750px;
+    height: 400px;
+    padding-top:25px;
+    margin:auto;
+        border: 1px solid #fdf4f400!important;
+        border-radius: 100px;
+
+
+}
+.add
+{
+
+    width:600px;
+    height: 500px;
+    padding-top:25px;
+    margin:auto;
+        border: 1px solid #fdf4f400!important;
+        border-radius: 100px;
+}
+.shadow:hover
+{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,   0.19);
+}
+.thumbnail img
+{
+    width:100%;
+}
+.thumbnail
+{
+    padding:0;
+}
+.font-color
+{
+        color: #1d00fb;
+}
+#position
+{
+    text-align: center;
+    margin:auto;
+
+}
+.choose
+{
+    color: #0ef7d8;
+}
+.comment-text
+{
+    color: #ff0000;
+}
+.name
+{
+    color: #ff8300;
+}
+.container
+{
+    margin-top: 100px;
+}
+.card
+{
+    border-color: red;
+    border-radius:0px;
+    border:none;
+    opacity:1;
+}
+.opacity
+{
+    opacity: 0.85;
+}
+
+em{
+    color:red;
+}
+.border:hover
+{
+    z-depth:5;
+}
+img
+{
+    border-radius: 0px;
+
+}
+.card:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,   0.19);
+  z-index: 1;
+}
+
+
+.btn-sm
+{
+    background-color: #3a0cff;
+    border-color: #007bff00;
+}
+.btn-lg {
+
+    color: #000000;
+    background-color: #f50808;
+    border-color: #ff000000;
+}
+.jumbotron
+{
+
+        background-color: #0ebefde3;
+}
+body
+{
+    background: url(https://images.unsplash.com/photo-1414390579679-7d6cc7b20436?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1399&q=80);
+    z-index: 7;
+margin-top: 0px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+  overflow: hidden;
+  z-index: 7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+
+
+
+}
+.col-mid-9 .card
+{
+    opacity: 0;
+}
+
+.color{
+        background-color: #191717;
+        line-height: 2;
+        opacity: 1;
+}
+
+
+.thumbnail .caption-full
+{
+    padding:9px;
+}
+.delete-form
+{
+    display: inline;
+}
+#delete-form
+{
+    display: inline;
+
+}
+
+#delete-btn
+{
+        background-color: #4fd9d1;
+        border-color: #d43f3a00;
+}
+#edit-btn
+{
+    background-color: #f0c44e;
+    border-color: #eea23600;
+}
+
+/* card flip */
+.flip-card {
+  background-color: transparent;
+
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+ /* transform: rotateY(360deg);
+  transition-delay: 0.1s;
+  transition-duration: 1s;*/
+  transform: scale(0.8);
+
+}
+
+
+
