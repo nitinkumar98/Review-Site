@@ -1,0 +1,23 @@
+<% include ./partials/header %>
+<div class="  shadow border container ">
+    <div class=" login row" >
+        <h1 id="position">Login</h1>
+        <div style="width: 30%; margin: 20px auto; width:65%;">
+            <form action="/login" method="post">
+                <div class="shadow form-group">
+                    <input class="form-control" type="text" name="username" placeholder="username">
+                </div>
+                <div class="shadow form-group">
+                    <input class="shadow form-control" type="password" name="password" placeholder="password">
+                </div>
+                <div class="shadow form-group">
+                    <button class="btn btn-lg btn-primary btn-block">Login</button>
+                </div>
+            </form>
+            <a class= "shadow btn btn-info btn-lg" href="/campgrounds">Go Back</a>
+        </div>
+    </div>
+</div>
+
+<% include ./partials/footer %>
+
