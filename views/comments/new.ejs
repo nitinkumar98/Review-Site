@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+
+ <div class="shadow add z-depth-5 container">
+     <div class="row">
+         <h1 class="choose" id="position">Add a new comment to <%=campground.name%></h1>
+              <div style="width:70%;margin:25px auto;">
+                <form action="/campgrounds/<%=campground._id%>/comments" method="POST">
+                 <div class="shadow form-group">
+                    <input  class="form-control" type="text" name="comment[text]" placeholder="text">
+                 </div>
+            <div class="shadow form-group">
+         <button class=" shadow btn btn-lg btn-default btn-block btn-primary">Submit</button>
+      </div>
+       <a   class= "shadow btn btn-info btn-lg" href="/campgrounds">Go back!</a>
+</form>
+       </div>
+     </div>
+
+
+ </div>
+<% include ../partials/footer %>
