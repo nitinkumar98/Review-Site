@@ -1,11 +1,11 @@
 # Review Site
-A full-stack Node.js project from my web dev course with RESTful routing 
+A full-stack Node.js project with RESTful routing 
 
 ## Initial Setup
-* Add Landing Page
-* Add Campgrounds Page that lists all campgrounds
+* Add Home Page
+* Add Items Page that lists all items
 
-Each Campground has:
+Each Item has:
    * Name
    * Image
 
@@ -13,28 +13,28 @@ Each Campground has:
 * Create header and footer partials
 * Add in Bootstrap
 
-## Creating New Campgrounds
-* Setup new campground POST route
+## Creating New Items
+* Setup new item POST route
 * Add in body-parser
 * Setup route to show form
 * Add basic unstyled form
 
-## Style the campgrounds page
+## Style the items page
 * Add a better header/title
-* Make campgrounds display in a grid
+* Make items display in a grid
 
 ## Style the Navbar and Form
 * Add a navbar to all templates
-* Style the new campground form
+* Style the new item form
 
 ## Add Mongoose
 * Install and configure Mongoose
-* Setup campground model
-* Use campground model inside of routes
+* Setup item model
+* Use item model inside of routes
 
 ## Show Page
 * Review the RESTful routes we've seen so far
-* Add description to the campground model
+* Add description to the item model
 * Show db.collection.drop()
 * Add a show route/template
 
@@ -49,7 +49,7 @@ Each Campground has:
 
 ## Add the Comment model!
 * Make comment errors go away!
-* Display comments on campground show page
+* Display comments on item show page
 
 ## Comment New/Create
 * Discuss nested routes
@@ -92,23 +92,23 @@ Each Campground has:
 * Associate users and comments
 * Save author's name to a comment automatically
 
-## Users + Campgrounds
-* Prevent an unauthenticated user from creating a campground
-* Save username+id to newly created campground
+## Users + Items
+* Prevent an unauthenticated user from creating a item
+* Save username+id to newly created item
 
-## Editing Campgrounds
+## Editing Items
 * Add Method-Override
-* Add Edit Route for Campgrounds
+* Add Edit Route for Items
 * Add Link to Edit Page
 * Add Update Route
 
-## Deleting Campgrounds
+## Deleting Items
 * Add Destroy Route
 * Add Delete button
 
-## Authorization Part 1: Campgrounds
-* User can only edit his/her campgrounds
-* User can only delete his/her campgrounds
+## Authorization Part 1: Items
+* User can only edit his/her items
+* User can only delete his/her items
 * Hide/Show edit and delete buttons
 
 ## Editing Comments
@@ -116,15 +116,15 @@ Each Campground has:
 * Add Edit button
 * Add Update route
 
-Campground Edit Route: /campgrounds/:id/edit
-Comment Edit Route:    /campgrounds/:id/comments/:comment_id/edit
+Item Edit Route: /items/:id/edit
+Comment Edit Route:    /items/:id/comments/:comment_id/edit
 
 ## Deleting Comments
 * Add Destroy route
 * Add Delete button
 
-Campground Destroy Route: /campgrounds/:id
-Comment Destroy Route:    /campgrounds/:id/comments/:comment_id
+Item Destroy Route: /items/:id
+Comment Destroy Route:    /items/:id/comments/:comment_id
 
 ## Authorization Part 2: Comments
 * User can only edit his/her comments
@@ -140,4 +140,4 @@ Comment Destroy Route:    /campgrounds/:id/comments/:comment_id
 ## Adding dynamic price tag
 * Show user-defined price
 * Edit new or old price
-* Change model for campground
+* Change model for item
